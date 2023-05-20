@@ -1,0 +1,35 @@
+.commentSectionContainer{
+    margin-top: 1rem;
+}
+
+.addCommentSection{
+    display: flex;
+    gap: 1rem;
+}
+
+.addCommentSection input{
+    flex: 1;
+    padding: 1rem;
+    border-radius: 1rem;
+    border-style: none;
+}
+
+.addCommentSection button{
+    border-radius: 1rem;
+    border-style: none;
+    padding: 0.5rem;
+}
+
+.userComment{
+    padding: 1rem;
+    border-radius: 1rem;
+    border-style: none;
+    background-color: white;
+}
+
+.mainCommentSection{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
