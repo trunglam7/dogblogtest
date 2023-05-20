@@ -18,8 +18,8 @@ const CommentSection = ({commentThreadId} : CommentThreadIdProp) => {
                 <button onClick={() => addCommentHandler()}>Comment</button>
             </div>
             <div className={style.mainCommentSection}>
-                {comments.map((comment : string) =>
-                    <p className={style.userComment}>{comment}</p>
+                {comments.map((comment : string, index: number) =>
+                    <p key={index} className={style.userComment}>{comment}</p>
                 )}
             </div>
         </div>
